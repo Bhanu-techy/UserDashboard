@@ -24,22 +24,22 @@ class InputForm extends Component {
       <div>
         <form>
           <input
-            type='text'
-            placeholder='Name'
+            type="text"
+            placeholder="Name"
             onChange={this.onChangeName}
-            id='name'
+            id="name"
           />
           <input
-            type='text'
-            placeholder='username'
+            type="text"
+            placeholder="username"
             onChange={this.onChangeUsername}
           />
           <input
-            type='text'
-            placeholder='email'
+            type="text"
+            placeholder="email"
             onChange={this.onChangeEmail}
           />
-          <button type='button' onClick={() => editDetails(data)}>
+          <button type="button" onClick={() => editDetails(data)}>
             Submit
           </button>
         </form>
