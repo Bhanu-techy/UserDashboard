@@ -1,12 +1,12 @@
 # Title
 
-    User Management Dashboard
+    - User Management Dashboard
 
 ## Objective
 
-    The primary goal of this assignment is to develop a functional web application that serves as a user management dashboard.
-    The application should allow users to perform basic operations—viewing, adding, editing, and deleting user data—using a mock backend API. 
-    This project is a practical exercise in front-end development, focusing on API interaction, dynamic UI updates, and data handling.
+    - The primary goal of this assignment is to develop a functional web application that serves as a user management dashboard.
+    - The application should allow users to perform basic operations—viewing, adding, editing, and deleting user data—using a mock backend API. 
+    - This project is a practical exercise in front-end development, focusing on API interaction, dynamic UI updates, and data handling.
 
 ## Tech Stack
 
@@ -15,9 +15,9 @@
 
 ## Completion Instructions
 
-### 1. User Interface
+ 1. User Interface
 
-    The user interface is the visual part of the application that users will interact with. It is clean, responsive, and easy to navigate.
+  => The user interface is the visual part of the application that users will interact with. It is clean, responsive, and easy to navigate.
 
     * User List Display:** A table or list to show user details. The required columns are: `ID`, `First Name`, `Last Name`, `Email`.
     * Action Buttons:** Provide clear, clickable elements (buttons or links) for `Add`, `Edit`, and `Delete` actions.
@@ -49,7 +49,8 @@
 
   **3. Backend Interaction
 
-    The application will communicate with a free, public REST API to simulate a backend system.
+   => The application will communicate with a free, public REST API to simulate a backend system.
+
       *  API Service : Used JSONPlaceholder, a free online REST API that you can use for demonstration and test purposes.
       
       *  Specifically, used the '/users' endpoint to fetch and manipulate user data.
@@ -88,15 +89,10 @@ A robust application anticipates and gracefully handles potential problems.
 5. Documentation: Is the `README` file complete and easy to follow?
 6. Efficiency: How efficiently does the application handle data and UI updates?
 
-## Reflections (to be included in your README)
+## Reflections:
 
-
-Section should be a personal reflection on your development process. Please consider and write about the following:
-
-  * Challenges Faced: What were the most significant challenges you encountered during development? 
-    (e.g., handling asynchronous API calls, state management, complex sorting logic, or CSS layout issues).
-   * Improvements: If you had more time, what improvements or new features would you implement? 
-    (e.g., better UI design, more robust validation, a more scalable architecture, or adding user authentication).
+  * Challenges Faced: It has been Challenging while updated the form, and some packges does not supported while Deploying to versel, so Deployed in 'Code Sandbox'
+   * Improvements: If had more time, Build a Backend api and add paginations
 
 
 ### Submission Instructions
