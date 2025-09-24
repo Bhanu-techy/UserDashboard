@@ -1,12 +1,12 @@
 # Title
 
-    - User Management Dashboard
+  User Management Dashboard
 
 ## Objective
 
-    - The primary goal of this assignment is to develop a functional web application that serves as a user management dashboard.
-    - The application should allow users to perform basic operations—viewing, adding, editing, and deleting user data—using a mock backend API. 
-    - This project is a practical exercise in front-end development, focusing on API interaction, dynamic UI updates, and data handling.
+  * The primary goal of this assignment is to develop a functional web application that serves as a user management dashboard.
+  * The application should allow users to perform basic operations—viewing, adding, editing, and deleting user data—using a mock backend API. 
+  * This project is a practical exercise in front-end development, focusing on API interaction, dynamic UI updates, and data handling.
 
 ## Tech Stack
 
@@ -18,32 +18,28 @@
  1. User Interface
 
   => The user interface is the visual part of the application that users will interact with. It is clean, responsive, and easy to navigate.
-
-    * User List Display:** A table or list to show user details. The required columns are: `ID`, `First Name`, `Last Name`, `Email`.
-    * Action Buttons:** Provide clear, clickable elements (buttons or links) for `Add`, `Edit`, and `Delete` actions.
-    * User Form:** A dedicated form for entering new user details or editing existing ones. This form should include input fields for `First Name`, `Last Name`, `Email`.
-    * Pagination/Infinite Scrolling:** Implement a way to manage large datasets. Choose one of the following:
-        -Infinite Scrolling:** Load more users automatically as the user scrolls to the bottom of the page.
-    * Filter and Search:**
-        - **Filter:** Created a pop-up for filtering users by `First Name`, `Last Name`, `Email`.
-        - **Search:** Implemented a search bar or functionality to find users based on text input.
-    * Sorting:** Add the ability to sort the user list by different columns (e.g., sort by `Last Name` alphabetically).
-    * Responsiveness:** The layout adapts and be usable on various screen sizes, from mobile phones to desktop computers.
+  * User List Display:** A table or list to show user details. The required columns are: `ID`, `First Name`, `Last Name`, `Email`.
+  * Action Buttons:** Provide clear, clickable elements (buttons or links) for `Add`, `Edit`, and `Delete` actions.
+  * User Form:** A dedicated form for entering new user details or editing existing ones. This form should include input fields for `First Name`, `Last Name`, `Email`.
+  * Pagination/Infinite Scrolling:** Implement a way to manage large datasets. Choose one of the following:
+      -Infinite Scrolling:** Load more users automatically as the user scrolls to the bottom of the page.
+  * Filter and Search:**
+      - **Filter:** Created a pop-up for filtering users by `First Name`, `Last Name`, `Email`.
+      - **Search:** Implemented a search bar or functionality to find users based on text input.
+  * Sorting:** Add the ability to sort the user list by different columns (e.g., sort by `Last Name` alphabetically).
+  * Responsiveness:** The layout adapts and be usable on various screen sizes, from mobile phones to desktop computers.
 
   **2. Functionality
 
-      This section details the specific actions application must perform.
+  This section details the specific actions application must perform.
 
-        * View: When the page loads, fetch and display the list of all users from the `/users` endpoint using a **GET** request.
-
-        * Add: When a new user is submitted via the form, send a 'POST' request to the `/users` endpoint. Note that JSONPlaceholder will simulate a successful response but will not save the new data permanently.
-
-        * Edit:
-            1. Fetch the data for a specific user.
-            2. Pre-fill the user form with the fetched data.
-            3. When the form is submitted, send a **PUT** request with the updated details to the `/users/:id` endpoint.
-
-        * Delete: When a user is selected for deletion, send a **DELETE** request to the `/users/:id` endpoint. Like with adding a user, this will only simulate success.
+  * View: When the page loads, fetch and display the list of all users from the `/users` endpoint using a **GET** request.
+  * Add: When a new user is submitted via the form, send a 'POST' request to the `/users` endpoint. Note that JSONPlaceholder will simulate a successful response but will not save the new data permanently.
+  * Edit:
+    1. Fetch the data for a specific user.
+    2. Pre-fill the user form with the fetched data.
+    3. When the form is submitted, send a **PUT** request with the updated details to the `/users/:id` endpoint.
+  * Delete: When a user is selected for deletion, send a **DELETE** request to the `/users/:id` endpoint. Like with adding a user, this will only simulate success.
 
 
 
@@ -51,19 +47,16 @@
 
    => The application will communicate with a free, public REST API to simulate a backend system.
 
-      *  API Service : Used JSONPlaceholder, a free online REST API that you can use for demonstration and test purposes.
-      
-      *  Specifically, used the '/users' endpoint to fetch and manipulate user data.
-      
-      * After performing the CRUD operations when the response is success then filtered the data manually, 
-          if the response get failure dispalyed a failure view.
-        
-      * HTTP Methods:
-        -GET : To retrieve (view) user data.
-        -POST: To add a new user.
-        -PUT: To edit an existing user.
-        -DELETE: To remove a user.
+    *  API Service : Used JSONPlaceholder, a free online REST API that you can use for demonstration and test purposes.
+    *  Specifically, used the '/users' endpoint to fetch and manipulate user data.
+    * After performing the CRUD operations when the response is success then filtered the data manually, if the response get failure dispalyed a failure view.
+    * HTTP Methods:
+      -GET : To retrieve (view) user data.
+      -POST: To add a new user.
+      -PUT: To edit an existing user.
+      -DELETE: To remove a user.
     
+
 ** 4. Error Handling & Validations
 
 A robust application anticipates and gracefully handles potential problems.
@@ -107,5 +100,6 @@ A robust application anticipates and gracefully handles potential problems.
    * Deployed Link or Published Link (this is mandatory)
 
 ### Submission Links:
-   Github : https://github.com/Bhanu-techy/UserDashboard.git
+   Github : https://github.com/Bhanu-techy/UserDetailsList.git
+   Code Sandbox : https://codesandbox.io/p/github/Bhanu-techy/UserDetailsList/main
    
